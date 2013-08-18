@@ -24,6 +24,8 @@
 		E97AB12C17C0597E00CAC012 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E97AB12B17C0597E00CAC012 /* second@2x.png */; };
 		E97AB12F17C0597E00CAC012 /* TEFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97AB12D17C0597E00CAC012 /* TEFirstViewController.xib */; };
 		E97AB13217C0597E00CAC012 /* TESecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97AB13017C0597E00CAC012 /* TESecondViewController.xib */; };
+		E97AB13B17C05B8F00CAC012 /* TEThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AB13917C05B8F00CAC012 /* TEThirdViewController.m */; };
+		E97AB13C17C05B8F00CAC012 /* TEThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97AB13A17C05B8F00CAC012 /* TEThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,9 @@
 		E97AB12B17C0597E00CAC012 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		E97AB12E17C0597E00CAC012 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TEFirstViewController.xib; sourceTree = "<group>"; };
 		E97AB13117C0597E00CAC012 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TESecondViewController.xib; sourceTree = "<group>"; };
+		E97AB13817C05B8F00CAC012 /* TEThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEThirdViewController.h; sourceTree = "<group>"; };
+		E97AB13917C05B8F00CAC012 /* TEThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEThirdViewController.m; sourceTree = "<group>"; };
+		E97AB13A17C05B8F00CAC012 /* TEThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TEThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +105,14 @@
 				E97AB11717C0597E00CAC012 /* TEAppDelegate.m */,
 				E97AB11F17C0597E00CAC012 /* TEFirstViewController.h */,
 				E97AB12017C0597E00CAC012 /* TEFirstViewController.m */,
-				E97AB12217C0597E00CAC012 /* first.png */,
-				E97AB12417C0597E00CAC012 /* first@2x.png */,
 				E97AB12617C0597E00CAC012 /* TESecondViewController.h */,
 				E97AB12717C0597E00CAC012 /* TESecondViewController.m */,
-				E97AB12917C0597E00CAC012 /* second.png */,
-				E97AB12B17C0597E00CAC012 /* second@2x.png */,
+				E97AB13817C05B8F00CAC012 /* TEThirdViewController.h */,
+				E97AB13917C05B8F00CAC012 /* TEThirdViewController.m */,
 				E97AB12D17C0597E00CAC012 /* TEFirstViewController.xib */,
 				E97AB13017C0597E00CAC012 /* TESecondViewController.xib */,
+				E97AB13A17C05B8F00CAC012 /* TEThirdViewController.xib */,
+				E97AB13D17C05BA400CAC012 /* Images */,
 				E97AB10E17C0597E00CAC012 /* Supporting Files */,
 			);
 			path = TabExample;
@@ -125,6 +130,17 @@
 				E97AB11D17C0597E00CAC012 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E97AB13D17C05BA400CAC012 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E97AB12217C0597E00CAC012 /* first.png */,
+				E97AB12417C0597E00CAC012 /* first@2x.png */,
+				E97AB12917C0597E00CAC012 /* second.png */,
+				E97AB12B17C0597E00CAC012 /* second@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +205,7 @@
 				E97AB12C17C0597E00CAC012 /* second@2x.png in Resources */,
 				E97AB12F17C0597E00CAC012 /* TEFirstViewController.xib in Resources */,
 				E97AB13217C0597E00CAC012 /* TESecondViewController.xib in Resources */,
+				E97AB13C17C05B8F00CAC012 /* TEThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +220,7 @@
 				E97AB11817C0597E00CAC012 /* TEAppDelegate.m in Sources */,
 				E97AB12117C0597E00CAC012 /* TEFirstViewController.m in Sources */,
 				E97AB12817C0597E00CAC012 /* TESecondViewController.m in Sources */,
+				E97AB13B17C05B8F00CAC012 /* TEThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
