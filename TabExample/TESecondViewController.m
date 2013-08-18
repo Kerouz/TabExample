@@ -7,6 +7,7 @@
 //
 
 #import "TESecondViewController.h"
+#import "TE_ReturnText.h"
 
 @interface TESecondViewController ()
 
@@ -27,7 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.secondViewLabel.text = [TE_ReturnText returnThisString];
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,4 +37,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)refreshSecondPanel:(id)sender {
+    self.secondViewLabel.text = [TE_ReturnText getCurrentText];
+}
 @end

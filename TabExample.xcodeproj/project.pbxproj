@@ -26,6 +26,9 @@
 		E97AB13217C0597E00CAC012 /* TESecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97AB13017C0597E00CAC012 /* TESecondViewController.xib */; };
 		E97AB13B17C05B8F00CAC012 /* TEThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AB13917C05B8F00CAC012 /* TEThirdViewController.m */; };
 		E97AB13C17C05B8F00CAC012 /* TEThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97AB13A17C05B8F00CAC012 /* TEThirdViewController.xib */; };
+		E97AB14017C06A3300CAC012 /* TE_ReturnText.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AB13F17C06A3300CAC012 /* TE_ReturnText.m */; };
+		E97AB14417C08C4E00CAC012 /* TESimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AB14217C08C4E00CAC012 /* TESimpleViewController.m */; };
+		E97AB14517C08C4E00CAC012 /* TESimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97AB14317C08C4E00CAC012 /* TESimpleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,11 @@
 		E97AB13817C05B8F00CAC012 /* TEThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEThirdViewController.h; sourceTree = "<group>"; };
 		E97AB13917C05B8F00CAC012 /* TEThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEThirdViewController.m; sourceTree = "<group>"; };
 		E97AB13A17C05B8F00CAC012 /* TEThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TEThirdViewController.xib; sourceTree = "<group>"; };
+		E97AB13E17C06A3300CAC012 /* TE_ReturnText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TE_ReturnText.h; sourceTree = "<group>"; };
+		E97AB13F17C06A3300CAC012 /* TE_ReturnText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TE_ReturnText.m; sourceTree = "<group>"; };
+		E97AB14117C08C4E00CAC012 /* TESimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESimpleViewController.h; sourceTree = "<group>"; };
+		E97AB14217C08C4E00CAC012 /* TESimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESimpleViewController.m; sourceTree = "<group>"; };
+		E97AB14317C08C4E00CAC012 /* TESimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TESimpleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +117,14 @@
 				E97AB12717C0597E00CAC012 /* TESecondViewController.m */,
 				E97AB13817C05B8F00CAC012 /* TEThirdViewController.h */,
 				E97AB13917C05B8F00CAC012 /* TEThirdViewController.m */,
+				E97AB14117C08C4E00CAC012 /* TESimpleViewController.h */,
+				E97AB14217C08C4E00CAC012 /* TESimpleViewController.m */,
 				E97AB12D17C0597E00CAC012 /* TEFirstViewController.xib */,
 				E97AB13017C0597E00CAC012 /* TESecondViewController.xib */,
 				E97AB13A17C05B8F00CAC012 /* TEThirdViewController.xib */,
+				E97AB14317C08C4E00CAC012 /* TESimpleViewController.xib */,
+				E97AB13E17C06A3300CAC012 /* TE_ReturnText.h */,
+				E97AB13F17C06A3300CAC012 /* TE_ReturnText.m */,
 				E97AB13D17C05BA400CAC012 /* Images */,
 				E97AB10E17C0597E00CAC012 /* Supporting Files */,
 			);
@@ -206,6 +219,7 @@
 				E97AB12F17C0597E00CAC012 /* TEFirstViewController.xib in Resources */,
 				E97AB13217C0597E00CAC012 /* TESecondViewController.xib in Resources */,
 				E97AB13C17C05B8F00CAC012 /* TEThirdViewController.xib in Resources */,
+				E97AB14517C08C4E00CAC012 /* TESimpleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +235,8 @@
 				E97AB12117C0597E00CAC012 /* TEFirstViewController.m in Sources */,
 				E97AB12817C0597E00CAC012 /* TESecondViewController.m in Sources */,
 				E97AB13B17C05B8F00CAC012 /* TEThirdViewController.m in Sources */,
+				E97AB14017C06A3300CAC012 /* TE_ReturnText.m in Sources */,
+				E97AB14417C08C4E00CAC012 /* TESimpleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

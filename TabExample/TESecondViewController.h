@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TESecondViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *secondViewLabel;
+- (IBAction)refreshSecondPanel:(id)sender;
 
 @end

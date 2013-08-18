@@ -1,33 +1,32 @@
 //
-//  TEThirdViewController.m
+//  TESimpleViewController.m
 //  TabExample
 //
 //  Created by Andie Le Quiniat on 18/08/13.
 //  Copyright (c) 2013 Andie Le Quiniat. All rights reserved.
 //
 
-#import "TEThirdViewController.h"
-#import "TE_ReturnText.h"
+#import "TESimpleViewController.h"
 
-@interface TEThirdViewController ()
+@interface TESimpleViewController ()
 
 @end
 
-@implementation TEThirdViewController
+@implementation TESimpleViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Third", @"Third");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];    }
+        // Custom initialization
+    }
     return self;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.title = @"TEST";
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,11 +34,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (IBAction)thirdPanelButton:(id)sender
-{
-    self.thirdPanelLabel.text = [TE_ReturnText returnThisString];
-}
-
 
 @end
