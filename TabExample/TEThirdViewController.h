@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TEThirdViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *thirdPanelLabel;
+- (IBAction)thirdPanelButton:(id)sender;
 
 @end
